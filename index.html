@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Management System</title>
+    <link rel="stylesheet" href="course.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <ul>
+                    <li><a href="Home">Home</a></li>
+                    <li><a href="About">About</a></li>
+                    <li><a href="Courses">Courses</a></li>
+                    <li><a href="Contact">Contact Us</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="signup.html">Sign Up</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- <section id="login" class="login">
+        <div class="container">
+            <h1>Login to Your Account</h1>
+            <form id="loginForm" action="login.php" method="POST">
+                <label for="loginEmail">Email:</label>
+                <input type="email" id="loginEmail" name="loginEmail" required><br><br>
+
+                <label for="loginPassword">Password:</label>
+                <input type="password" id="loginPassword" name="loginPassword" required><br><br>
+
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </section> -->
+
+    <br>
+
+    <!-- <section id="signup" class="signup">
+        <div class="container">
+            <h1>Create Your Account</h1>
+            <form id="signupForm" action="signup" method="POST">
+                <label for="signupName">Name:</label>
+                <input type="text" id="signupName" name="signupName" required><br><br>
+
+                <label for="signupEmail">Email:</label>
+                <input type="email" id="signupEmail" name="signupEmail"><br><br>
+
+                <label for="signupPassword">Password:</label>
+                <input type="password" id="signupPassword" name="signupPassword" required><br><br>
+
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </section> -->
+
+    <br>
+
+    <section id="courses" class="courses">
+        <div class="container">
+            <h1>Available Courses</h1>
+            <p>Certainly! Here are the courses listed in a descriptive format with serial numbers:</p>
+            <ol>
+                <li><strong>Information Technology (IT)</strong>: Courses related to computing, software development, and IT infrastructure.</li>
+                <li><strong>Computer Science (CS)</strong>: Covers algorithms, programming languages, and computer system design.</li>
+                <li><strong>Mathematics (Maths)</strong>: Includes topics like calculus, algebra, and mathematical logic.</li>
+                <li><strong>Biology</strong>: Focuses on the study of living organisms, their structure, function, growth, and evolution.</li>
+                <li><strong>Physics</strong>: Involves the study of matter, energy, motion, and the fundamental forces of the universe.</li>
+                <li><strong>Chemistry</strong>: Deals with the properties, composition, and reactions of substances.</li>
+                <li><strong>Zoology</strong>: Concentrates on the study of animals, their behavior, physiology, and evolution.</li>
+            </ol>
+            <form id="courseRegistrationForm" action="register_course.php" method="POST">
+                <label for="courseSelect">Select Course:</label>
+                <select id="courseSelect" name="courseSelect" required>
+                    <option value="IT">Information Technology (IT)</option>
+                    <option value="CS">Computer Science (CS)</option>
+                    <option value="Maths">Mathematics (Maths)</option>
+                    <option value="Biology">Biology</option>
+                    <option value="Physics">Physics</option>
+                    <option value="Chemistry">Chemistry</option>
+                    <option value="Zoology">Zoology</option>
+                </select><br><br>
+
+                <button type="submit">Register for Course</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 E-Learning Management System</p>
+        </div>
+    </footer>
+
+    <script src="course.js"></script>
+</body>
+</html>
